@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class IceCreamParlour {
 
 	public int[] iceCreamParlour(int m, int arr[]) {
 		int first = 0;
 		int second = 0;
-		int result [] = null;
+		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 1; j < arr.length; j++) {
 
@@ -21,7 +23,7 @@ public class IceCreamParlour {
 		}
 		System.out.println(first);
 		System.out.println(second);
-		return result;
+		return new int []{first, second};
 
 	}
 
@@ -29,7 +31,7 @@ public class IceCreamParlour {
 		// TODO Auto-generated method stub
 
 		IceCreamParlour res = new IceCreamParlour();
-		res.iceCreamParlour(5, new int[] { 2, 3, 4 });
+		System.out.println(Arrays.toString(res.iceCreamParlour(5, new int[] { 2, 3, 4 })));
 	//.out.println(Arrays.to);
 
 	}
