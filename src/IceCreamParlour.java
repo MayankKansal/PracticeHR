@@ -19,8 +19,8 @@ public class IceCreamParlour {
 			}
 
 		}
-		System.out.println(first);
-		System.out.println(second);
+	//	System.out.println(first);
+	//	System.out.println(second);
 		return result;
 
 	}
