@@ -21,9 +21,11 @@ public class IceCreamParlour {
 			}
 
 		}
+
 		System.out.println(first);
 		System.out.println(second);
 		return new int []{first, second};
+
 
 	}
 
