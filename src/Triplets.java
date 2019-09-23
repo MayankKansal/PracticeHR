@@ -35,6 +35,19 @@ public class Triplets {
 		// TODO Auto-generated method stub
 		
 		Triplets tr = new Triplets();
+		ArrayList <Integer> al = new ArrayList<Integer>();
+		al.add(2);
+		al.add(4);
+		al.add(5);
+		al.add(8);
+		
+		ArrayList <Integer> bl = new ArrayList<Integer>();
+		bl.add(5);
+		bl.add(7);
+		bl.add(6);
+		bl.add(4);
+		
+		tr.compareTriplets(al, bl);
 		
 
 	}
