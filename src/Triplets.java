@@ -36,8 +36,8 @@ public class Triplets {
 		
 		Triplets tr = new Triplets();
 		ArrayList <Integer> al = new ArrayList<Integer>();
-		al.add(2);
-		al.add(4);
+		al.add(7);
+		al.add(8);
 		al.add(5);
 		al.add(8);
 		
@@ -47,7 +47,7 @@ public class Triplets {
 		bl.add(6);
 		bl.add(4);
 		
-		tr.compareTriplets(al, bl);
+		System.out.println(tr.compareTriplets(al, bl));
 		
 
 	}
