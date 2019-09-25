@@ -11,7 +11,7 @@ public class SockMerchant {
 			for(int j=i+1; j<ar.length; j++){
 				if (ar[i]==ar[j]) {
 					pair++;
-					ArrayUtils.removeElement(ar, j);
+				ar= 	ArrayUtils.removeA(ar,j);
 					break;
 				}
 			}
