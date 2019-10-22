@@ -7,17 +7,14 @@ public class BirthdayCandle {
         int candle =1;
         Arrays.sort(ar);
         System.out.println(Arrays.toString(ar));
-        for(int i=ar.length-1; i>=0;i--){
-          try{
+        for(int i=ar.length-1; i>=1;i--){
+          
         	   if(ar[i]==ar[i-1]) {
                	candle++;	
                }
         	   else
                    break; 
-           }
-          catch(Exception e){
-        	  
-          }
+           
                  
         }
     return candle;
