@@ -5,19 +5,31 @@ public class NonDivisibleSubset {
 
 	public int nonDivisibleSubset(int k, List<Integer> s) {
 
-		ArrayList<Integer> al = new ArrayList<Integer>();
-		for (int i = 0; i < s.size(); i++) {
-			for (int j = i; j < s.size()-1; j++) {
-				if ((s.get(i) + s.get(j + 1)) % k != 0) {
-					if(!(al.contains(i))) {
-						al.add(i);
+		int size = s.size();
+		int count = 0;
+	ArrayList<Integer> al = new ArrayList<Integer>();
+		for (int i = 0; i < size; i++) {
+			if (size == 1) {
+				count++;
+				return count ;
+			} else {
+				for (int j = i; j < size - 1; j++) {
+					if ((s.get(i) + s.get(j + 1)) % k != 0) {
+					
+						if(!al.contains(i)){
+							al.add(i);
+						}
+						
 					}
-					//break;
+
 				}
+
 			}
 			
 		}
-
+		if(s.get(size-1)% k !=0){
+			al.add(size-1);
+		}
 		return al.size();
 	}
 
