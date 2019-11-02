@@ -8,7 +8,7 @@ public class NonDivisibleSubset {
 		int size = s.size();
 		int count = 0;
 	ArrayList<Integer> al = new ArrayList<Integer>();
-		for (int i = 0; i < size; i++) {
+	//	for (int i = 0; i < size; i++) {
 			if (size == 1) {
 				count++;
 				return count ;
@@ -41,6 +41,7 @@ public class NonDivisibleSubset {
 		ml.add(7);
 		ml.add(2);
 		ml.add(4);
+		ml.add(6);
 		System.out.println(ob.nonDivisibleSubset(3, ml));
 
 	}
