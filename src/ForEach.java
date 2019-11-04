@@ -10,7 +10,7 @@ public class ForEach {
 		ArrayList <Integer> ls = new ArrayList<Integer>();
 		for(String i :arr ){
 
-			ls.add(i);
+		//	ls.add(i);
 		}
 		System.out.println(ls);
 
