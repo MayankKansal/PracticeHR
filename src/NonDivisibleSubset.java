@@ -31,7 +31,7 @@ public class NonDivisibleSubset {
 
 			}
 
-		}
+		
 		if (s.get(size - 1) % k != 0) {
 			al.add(size - 1);
 			System.out.println("sizenow"+ al.size());
