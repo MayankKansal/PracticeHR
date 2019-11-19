@@ -1,7 +1,7 @@
 public class SuperReducedString {
 
 	static String superReducedString(String s) {
-		String resutlrString = null;
+		//String resutlrString = null;
 		StringBuilder sb = new StringBuilder(s);
 		for (int i = 0; i <=sb.length()- 1; i++) {
 			System.out.println(i);
