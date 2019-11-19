@@ -11,16 +11,12 @@ public class LeaderBoard {
 		 int rank=1;
 		 
 		 for(int i=0; i<scores.length;i++) {
-			 for (int j=0; j<alice.length;j++) {
-				 
+			 for (int j = 0; j < alice.length; j++) {
+
 			 }
-			 
-		 
-		 
-		 
-		 
-		 
-		 
+
+
+		 }
 		 
 		 
 		 

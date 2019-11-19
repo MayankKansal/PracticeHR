@@ -14,15 +14,13 @@ public class NonDivisibleSubset {
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		for (int i = 0; i < size; i++) {
 			{
-				for (int j = i; j < size - 1; j++)
-
-				{
+				for (int j = i; j < size - 1; j++) {
 					System.out.println((s.get(i) + s.get(j + 1)) % k);
 					if ((s.get(i) + s.get(j + 1)) % k != 0) {
 
 						if (!al.contains(i)) {
 							al.add(i);
-							System.out.println("sizenow"+ al.size());
+							System.out.println("sizenow" + al.size());
 						}
 
 					}
@@ -31,14 +29,15 @@ public class NonDivisibleSubset {
 
 			}
 
-		
-		if (s.get(size - 1) % k != 0) {
-			al.add(size - 1);
-			System.out.println("sizenow"+ al.size());
+
+			if (s.get(size - 1) % k != 0) {
+				al.add(size - 1);
+				System.out.println("sizenow" + al.size());
+			}
+
 		}
 		return al.size();
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		NonDivisibleSubset ob = new NonDivisibleSubset();
