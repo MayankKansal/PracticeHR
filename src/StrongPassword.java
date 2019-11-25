@@ -10,7 +10,7 @@ public class StrongPassword {
                 && ('0' <= c && c <= '9')){
             count++;
 
-        }else if (specialChars.contains(password.substring(i, 1))) {
+        }else if (!specialChars.contains(password.substring(i,i))) {
             count++;
         }
         else if(password.length()<6){
@@ -23,7 +23,7 @@ public class StrongPassword {
     }
 
     public static void main(String [] args){
-            System.out.println(minNumber(3, "#HackerRank"));
+            System.out.println(minNumber(3, "Ab1"));
     }
 
 }
