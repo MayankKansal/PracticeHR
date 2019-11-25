@@ -10,12 +10,12 @@ public class JavaIntToString {
 		// TODO Auto-generated method stub
 		
 		int a = 51;
-		/*String b="";
-		//b= String.valueOf(a);
+		String b="";
+		b= String.valueOf(a);
 		b= Integer.toString(a);
-		System.out.println(b);*/
-		char c= (char) a;
-		System.out.println(c);
+		System.out.println(b);
+		/*char c= (char) a;
+		System.out.println(c);*/
 		
 
 	}
