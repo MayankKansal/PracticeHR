@@ -12,17 +12,16 @@ public class BirthdayCandle {
         	   if(ar[i]==ar[i-1]) {
                	candle++;	
                }
-        	   else
-                   break; 
-           
-                 
+        	   else {
+                   break;
+               }
         }
     return candle;
     }
 
 
 	public static void main(String[] args) {
-		System.out.println(birthdayCakeCandles(new int[] {5,5,5,5,5,5,5,5}));
+		System.out.println(birthdayCakeCandles(new int[] {3,2,1,3}));
 	}
 
 }
