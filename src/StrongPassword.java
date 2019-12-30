@@ -37,7 +37,7 @@ public class StrongPassword {
         }
     }
 
-    while (Math.abs(6-n)<(lc+uc+nc+sc) && count<(Math.abs(6-n))){
+    while (Math.abs(6-n)<=(lc+uc+nc+sc) && count<(6-n)){
         count++;
     }
 
@@ -45,11 +45,15 @@ public class StrongPassword {
     }
 
     public static void main(String [] args){
+<<<<<<< HEAD
+            System.out.println(minNumber(11, "#HackerRank"));
+=======
 
             System.out.println(minNumber(3, "Ab1"));
 
             System.out.println(minNumber(3, "#Ab"));
 
+>>>>>>> 26528821dc32670d661c9234b50e0f9c1419b656
     }
 
 }
