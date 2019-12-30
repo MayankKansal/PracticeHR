@@ -11,13 +11,14 @@ public class SockMerchant {
 		int pair = 0;
 		/*Integer[] ints = new Integer[] {1,2,3,4,5};
 		List<Integer> list = Arrays.asList(ints);
-		*/
-		List<Integer> al= (Arrays.asList(ar));
 		
-		/*for (int i = 0; i < ar.length; i++) {
+		List<Integer> al= (Arrays.asList(ar));*/
+		
+		ArrayList<Integer> al= new ArrayList<Integer>();
+		for (int i = 0; i < ar.length; i++) {
 			
 				al.add(ar[i]);
-			}*/
+			}
 		
 		
 		for (int i = 0; i < al.size(); i++) {
