@@ -15,19 +15,19 @@ public class ChocolateFeast {
 			else {
 				initailChoc1 = initailChoc;
 				while (initailChoc / m >= 1) {
-					// initailChoc1 =initailChoc;
+					/*
 					System.out.println(initailChoc);
 					System.out.println((initailChoc / m));
-
 					System.out.println(initailChoc1);
+					*/
 					initailChoc1 = initailChoc1 + (initailChoc / m);
-					System.out.println(initailChoc1);
-					initailChoc = initailChoc / m;
+					 System.out.println(initailChoc1);
+					initailChoc = initailChoc / m + initailChoc % m;
 				}
-				if ((m - initailChoc) <= 1 || (m - initailChoc) <= 0
-						|| m == initailChoc) {
-					initailChoc1 = initailChoc1 + 1;
-				}
+				/*
+				  if ((m - initailChoc) <= 1 || (m - initailChoc) <= 0) {
+				  initailChoc1 = initailChoc1 + 1; }
+				 */
 
 				return initailChoc1;
 			}
@@ -41,7 +41,7 @@ public class ChocolateFeast {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(chocolateFeast(16974, 1248, 6090));
+		System.out.println(chocolateFeast(12, 4, 4));
 
 	}
 
