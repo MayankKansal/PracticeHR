@@ -2,14 +2,28 @@ package Javaprob;
 
 public class LoopII {
 
-	public void series(int a,int b, int n) {
-		long result = 1;
+	static int  series(int a,int b, int n) {
+		/*int result = 0;
 		for(int i=0; i<n;i++) {
 			
-				System.out.println(a+ ( result *= 2) * b);
+				result =  (int) (a+  Math.pow(2, i)*b);
+				//System.out.print("Pow "+ Math.pow(2, i)*b + "," );
+			//	System.out.print("result " +result + ", ");
+				if(i==0)
+				System.out.print(a+ ( Math.pow(2, i))*b+ " ");
+				else
+				System.out.print(a+ result+ " ");
+				//a=(int) (( Math.pow(2, i))*b);
 			
-		}
+		}*/
 		
+		int sum = a+b;
+        for(int j=1; j<=n; j++){
+            System.out.print(sum+" ");
+            sum+=((Math.pow(2,j))*b);
+            
+        }
+        return sum;
 		
 		
 	}
@@ -20,8 +34,8 @@ public class LoopII {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		LoopII ob = new LoopII();
-		ob.series(0, 2, 10);
+		
+		series(5,3,5);
 
 	}
 
