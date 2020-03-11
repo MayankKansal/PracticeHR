@@ -45,6 +45,7 @@ public class StrongPassword {
     }
 
     public static void main(String [] args){
+
             System.out.println(minNumber(11, "#HackerRank"));
 
 

@@ -17,6 +17,8 @@ public class RemoveSameElement {
 		for(int i=0; i<ls.size()-1;i++){
 			if(ls.get(i)==ls.get(i+1)){
 				ls.remove(i+1);
+				System.out.println(ls);
+				
 
 			}
 		}
