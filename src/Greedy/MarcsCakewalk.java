@@ -35,7 +35,7 @@ public class MarcsCakewalk {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(marcsCakewalk(new int[] { 7, 4, 9, 6 }));
+		System.out.println(marcsCakewalk(new int[] { 7, 14, 9, 6 }));
 	}
 
 }
